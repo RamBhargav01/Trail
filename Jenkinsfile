@@ -20,5 +20,10 @@ pipeline {
         echo 'stage 2 successful'
       }
     }
+     stage('Stage3'){
+      steps {
+        echo "Stage 3 Successful"
+      }
+    }
   }
 }
